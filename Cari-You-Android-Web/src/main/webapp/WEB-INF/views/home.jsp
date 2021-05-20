@@ -1,19 +1,18 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
-
+<%
+request.setCharacterEncoding("utf-8");
+%>
 <html>
 <head>
-	<title>Home</title>
+<title>Home</title>
+<link rel="stylesheet" href="css/common.css" >
 </head>
-<body>
-<h1>
-	Hello world!  
-</h1>
 
-<P>  The time on the server is ${serverTime}. </P>
-<h2>스프링 웹 초안!!</h2>
-<h2>스프링 웹 초안!!</h2>
-<h2>스프링 웹 초안!!</h2>
+<body>
+	<img alt="x" src="imgs/hanul.png" style="width: 80%">
+	
 </body>
 </html>
+
